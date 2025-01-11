@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Match Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Cricket Match</h1>
+    <div class="scoreboard">
+      <p>Score: <span id="score">0</span></p>
+      <p>Balls: <span id="balls">0</span> / <span id="ballsInOver">6</span></p>
+      <p>Overs: <span id="overs">0</span> / <span id="totalOvers">5</span></p>
+    </div>
+    <div class="game-field">
+      <div class="bat"></div>
+      <div class="ball"></div>
+    </div>
+    <button id="hitButton">Hit the Ball!</button>
+    <div id="endMessage" class="end-message" style="display: none;">
+      <h2>Game Over</h2>
+      <p>Your Final Score: <span id="finalScore">0</span></p>
+      <button id="restartButton">Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
